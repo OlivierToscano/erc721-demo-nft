@@ -1,0 +1,19 @@
+{
+  "name": "nftwothhardhat",
+  "version": "1.0.0",
+  "description": "NFT Project deployed with Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ERC721", "NFT", "WEB3", "HARDHAT"],
+  "author": "Olivier Toscanop",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "hardhat": "^2.12.6"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
