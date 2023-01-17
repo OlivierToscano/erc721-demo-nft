@@ -7,3 +7,11 @@
 /truffle/node_modules
 *.env
 *.log
+
+# hardhat
+/hardhat/node_modules
+/hardhat/cache/*
+/hardhat/.secret
+/hardhat/.infura
+/hardhat/.etherscan
+
