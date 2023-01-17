@@ -15,3 +15,9 @@
 /hardhat/.infura
 /hardhat/.etherscan
 
+# foundry
+/foundry/cache/*
+/foundry/lib/*
+/foundry/out/*
+/foundry/.env
+/foundry/.secret
