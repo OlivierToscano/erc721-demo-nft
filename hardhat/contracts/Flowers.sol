@@ -44,6 +44,6 @@ contract Flowers is ERC721, Ownable {
         override(ERC721)
         returns (string memory)
     {
-        return string(abi.encodePacked(_baseURI(), tokenId+1, ".json"));
+        return string(abi.encodePacked(_baseURI(), "flower", tokenId+1, ".json"));
     }
 }
