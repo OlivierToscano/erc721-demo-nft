@@ -1,0 +1,9 @@
+# NFT source files
+/nftFlowers
+
+# truffle
+/truffle/build/contracts/*
+/truffle/contracts/abi.txt
+/truffle/node_modules
+*.env
+*.log

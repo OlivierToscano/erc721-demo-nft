@@ -1,0 +1,29 @@
+{
+  "name": "nftwithtruffle",
+  "version": "1.0.0",
+  "description": "NFT Project deployed with Truffle",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ERC721",
+    "NFT",
+    "WEB3",
+    "TRUFFLE"
+  ],
+  "author": "Olivier Toscano",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "dotenv": "^16.0.3",
+    "truffle-assertions": "^0.9.2"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.1"
+  }
+}
