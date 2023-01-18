@@ -51,12 +51,24 @@ npx hardhat node
 
 ### Deploy Smart contract
 
-Hardhat commands to clean, compile and deploy Smart contract
+Hardhat commands to clean, compile Smart contract
 
 ```shell
 npx hardhat clean
 npx hardhat compile
-npx hardhat run scripts/deploy.js
+```
+
+Deploy locally
+
+```shell
+npx hardhat node
+npx hardhat run --network localhost scripts/deploy.js
+```
+
+Deploy on Goerli network
+
+```shell
+npx hardhat run --network goerli scripts/deploy.js
 ```
 
 The deployment script should return something like that
@@ -64,4 +76,28 @@ The deployment script should return something like that
 ```shell
 Start deployment script
 Deploy contract at 0x5FbDB2315678afecb367f032d93F642f64180aa3
+```
+
+Now you can check your contract on [Etherscan (goerli network)](https://goerli.etherscan.io/)
+
+### Verifying the Smart Contract¶
+
+1. Add the .etherscan file to your hardhat project
+2. Add the .etherscan to .gitignore
+3. Add the following parts to the hardhat.config.js
+
+```shell
+module.exports = {
+  ...
+  etherscan: {
+    apiKey: fs.readFileSync(".etherscan").toString().trim(),
+  },
+  ...
+};
+```
+
+Verify contract
+
+```shell
+npx hardhat verify --network goerli 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
