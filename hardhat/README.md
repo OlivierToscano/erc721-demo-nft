@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# ERC721 deployed with Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploy that contract.
 
 ## Requierements
 
@@ -49,7 +49,7 @@ Hardhat comes with a dedicated node (something like ganache), to start a local n
 npx hardhat node
 ```
 
-### Smart contract
+### Deploy Smart contract
 
 Hardhat commands to clean, compile and deploy Smart contract
 
