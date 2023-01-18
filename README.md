@@ -6,4 +6,4 @@ In this project, we will create a NFT smart contract and deploy it through diffe
 
 - [Truffle](truffle/README.md)
 - [Hardhat](hardhat/README.md)
-- [Foundary](foundry/README.md)
+- [Foundry](foundry/README.md)
