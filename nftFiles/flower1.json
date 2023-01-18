@@ -1,0 +1,16 @@
+{
+    "name": "Flower Token",
+    "description": "Flowers collection. Save the nature by getting this NFT. Collect each one of them.",
+    "image": "https://static.webcms.lu/olivier/flower1.webp",
+    "external_url": "https://olivier.toscano.lu",
+    "attributes": [
+        {
+            "trait_type": "Artefact", 
+            "value": "Flower"
+        },
+        {
+            "trait_type": "Collection", 
+            "value": "Genesis"
+        }
+    ]
+}
