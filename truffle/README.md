@@ -2,11 +2,9 @@
 
 ## Requierements
 
-Ganache should be installed with Truffle suite: [https://trufflesuite.com/ganache/](https://trufflesuite.com/ganache/)
+Ganache should be installed with Truffle suite: [Install Truffle suite](https://trufflesuite.com/ganache/)
 
-Node v18 or above should be installed
-
-[Install node](https://nodejs.org/en/download/)
+Node v18 or above should be installed: [Install Node](https://nodejs.org/en/download/)
 
 Install NPM dependencies
 
@@ -63,11 +61,15 @@ Example
 
 ## How to get contract ABI
 
-> truffle compile
+```shell
+truffle compile
+```
 
 Minimize script will take the builded version of the *Flowers* contract, extract *ABI* then save and log the minimized version of it.
 
-> node minimize.js
+```shell
+node minimize.js
+```
 
 ## Webp converter
 
