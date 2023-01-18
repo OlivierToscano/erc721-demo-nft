@@ -59,7 +59,7 @@ Replace *0* with the *token ID* (uint256)
 > https:://testnets.opensea.io/assets/goerli/0X.../0
 
 Example
-[https:://testnets.opensea.io/assets/goerli/0x1Ae58d5dfC9cb85e51EDE52231a0cbb6a55e65A4/0](https:://testnets.opensea.io/assets/goerli/0x1Ae58d5dfC9cb85e51EDE52231a0cbb6a55e65A4/0)
+[https://testnets.opensea.io/assets/goerli/0x1Ae58d5dfC9cb85e51EDE52231a0cbb6a55e65A4/0](https://testnets.opensea.io/assets/goerli/0x1Ae58d5dfC9cb85e51EDE52231a0cbb6a55e65A4/0)
 
 ## How to get contract ABI
 
