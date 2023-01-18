@@ -1,4 +1,4 @@
-console.log('start deployment script');
+console.log('Start deployment script');
 (async () => {
     try {
         const Flowers = await hre.ethers.getContractFactory("Flowers");
