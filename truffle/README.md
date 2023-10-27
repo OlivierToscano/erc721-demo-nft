@@ -9,7 +9,7 @@ Node v18 or above should be installed: [Install Node](https://nodejs.org/en/down
 Install NPM dependencies
 
 ```shell
-npm install
+pnpm install
 ```
 
 ## Commands
