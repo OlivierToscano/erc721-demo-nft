@@ -14,6 +14,10 @@ contract Flowers is ERC721, ERC721URIStorage, Ownable {
 
     constructor() ERC721("flowers", "FLO") {}
 
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721, ERC721URIStorage) returns (bool) {
+        return super.supportsInterface(interfaceId);
+    }
+
     function _baseURI() internal pure override returns (string memory) {
         return "https://static.webcms.lu/olivier/nftFlowers/";
     }
